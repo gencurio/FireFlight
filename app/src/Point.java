@@ -4,11 +4,16 @@ class Point
 {
     private final double x;
     private final double y;
+    private final double z;
+
+
 
     public Point(double x, double y)
     {
         this.x = x;
         this.y = y;
+        this.z = z;
+
     }
 
     public double getX()
@@ -20,20 +25,9 @@ class Point
     {
         return y;
     }
+    
+    public double getZ() { return z; }
 
-    public double getRadius()
-    {
-        return sqrt((x*x) + (y*y));
-    }
 
-    public double getAngle()
-    {
-        return atan(y/x);
-    }
-
-    public Point rotate90()
-    {
-        return new Point(-y, x);
-    }
 
 }
