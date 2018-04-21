@@ -1,10 +1,8 @@
-import static java.lang.Math.sqrt;
-import static java.lang.Math.atan;
 class Point
 {
     private final double x;
     private final double y;
-    private final double z;
+    //private final double z;
 
 
 
@@ -12,7 +10,7 @@ class Point
     {
         this.x = x;
         this.y = y;
-        this.z = z;
+        //this.z = z;
 
     }
 
@@ -25,8 +23,8 @@ class Point
     {
         return y;
     }
-    
-    public double getZ() { return z; }
+
+    //public double getZ() { return z; }
 
 
 
